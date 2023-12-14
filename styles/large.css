@@ -1,0 +1,54 @@
+@media screen and (min-width: 1120px){
+    nav {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: right;      
+        
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .logo, footer .logo{
+        width: 25%;
+        object-fit: contain;
+    }
+
+    #hero-img{
+        height: 20%;
+    }
+
+    #hero-order-button{
+        position:absolute;
+        top: 70%;
+        left: 35%;
+        font-size: 3rem;
+    }
+
+    footer{
+        flex-direction: row;
+    }
+
+    footer a{
+        grid-column: 4/5;
+        justify-content: right;
+    }
+
+    #insta, #face, #twitt{
+        width: 15%;
+        position:relative;
+    }
+    
+    .weather{
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+
+    .weather h2{
+        margin-left: 0.1px;
+        margin-right: 0.1px;
+    }
+    
+}
